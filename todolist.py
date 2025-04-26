@@ -6,9 +6,10 @@ while True:
     print("2. Add task")
     print("3. Delete task")
     print("4. Complete Any task")
-    print("5. Exit")
+    print ("5. Update task")
+    print("6. Exit")
 
-    choice = input("Choose an option (1-4): ")
+    choice = input("Choose an option 1 to 6: ")
 
     if choice == '1':
         if not todo_list:
@@ -67,6 +68,35 @@ while True:
         else:
             print("Invalid value bro")
     elif choice == '5':
+        if not todo_list:
+            print("No tasks to Update.")
+        else:
+            counter=1
+            for task in todo_list:
+                if task['completed']==True:
+                    status="completed"
+                    print(counter, "", task['Task'] , "", status)
+                    counter+=1
+                else:
+                    status="Not completed"
+                    print(counter, "", task['Task'] , "", status)
+                    counter+=1
+            
+            
+            try:
+                task_num = int(input("Enter the task number to Update: "))
+                if 1 <= task_num <= len(todo_list):
+                    new_task = input("Enter the new task description: ")
+                    todo_list[task_num - 1]["Task"] = new_task
+
+                    print("Task updated successfully.")
+                else:
+                    print("Invalid task number.")
+            except ValueError:
+                print("Please enter a valid number.")
+
+    
+    elif choice == '6':
         print("By")
         break
 
