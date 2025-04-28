@@ -31,3 +31,8 @@ then you write some thing like
 Enter your new Task : morining walk 
 it look like this 
 ![To-Do List CLI Screenshot](add.png)
+
+Now if you delete that task now just write 3 and press Enter 
+and select the number of task you want to delete and press enter it will
+automatically delete it 
+![To-Do List CLI Screenshot](del.png)
