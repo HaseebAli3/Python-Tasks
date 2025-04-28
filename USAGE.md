@@ -24,3 +24,10 @@ python todolist.py
 Next you can chose any option according to your need 
 Like write 1 and Press Enter you can view all task you added before and
 this program is very user friendly you understand by seeing it and reading it 
+
+if you write 2 and press enter it show this
+Enter your new Task : 
+then you write some thing like  
+Enter your new Task : morining walk 
+it look like this 
+![To-Do List CLI Screenshot](add.png)
