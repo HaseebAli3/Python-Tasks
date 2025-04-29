@@ -22,7 +22,7 @@ You can **Add**, **View**, **Update**, **Delete**, and **Mark tasks as Completed
 3. Open your terminal/command prompt in the project folder.
 4. Run the following command:
 
-```bash
+
 python todolist.py
 
 
