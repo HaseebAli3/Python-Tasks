@@ -24,3 +24,24 @@ You can **Add**, **View**, **Update**, **Delete**, and **Mark tasks as Completed
 
 ```bash
 python todolist.py
+
+
+# 📋 How to Use the To-Do List CLI Application
+
+Now we explain how to use the To-Do List CLI tool, how to run it, and shows an example screenshot.
+
+---
+
+## 🛠 How to Run the Program
+
+1. Open your terminal or command prompt.
+2. Navigate to the project folder:
+
+python todolist.py
+
+--- To-Do List ---
+1. Add task
+2. Exit
+
+![To-Do List CLI Screenshot](view.png)
+
