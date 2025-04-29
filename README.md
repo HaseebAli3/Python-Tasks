@@ -43,5 +43,6 @@ python todolist.py
 1. Add task
 2. Exit
 
-![To-Do List CLI Screenshot](view.png)
+
+![To-Do List CLI](view.png)
 
